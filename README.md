@@ -1,5 +1,7 @@
 python3 lazy_mesh_four_ten_thousand 
 
+'''
+
 1     (-9, 1, 5, 6)
 1     (-9, 3, -2, -3)
 1     (-9, 4, 4, -8)
@@ -10001,3 +10003,4 @@ python3 lazy_mesh_four_ten_thousand
 32     (9, 8, -8, -7)
 33     (8, -9, 9, 7)
 there are 10000 many unique problem in this exercise
+'''
