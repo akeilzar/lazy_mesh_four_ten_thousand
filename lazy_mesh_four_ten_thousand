@@ -1,0 +1,45 @@
+'''
+
+rnd (* 4 _ ) in (-9 ... 9) as LIST
+
+out: both: sum LIST and LIST as abs _ of LIST
+
+'''
+
+import random
+
+def oSUM():
+	LIST = (lambda: [random.choice(range(-9,9)),random.choice(range(-9,9)),random.choice(range(-9,9)),random.choice(range(-9,9))])
+	list_holder = LIST()
+	SUM = sum(list_holder)
+	'''
+	times rnd choice pos neg
+	'''
+	outLIST = [random.choice([1,-1]) * n for n in list_holder]
+	return (abs(SUM), tuple(outLIST))
+'''
+print(oSUM())
+'''
+
+ten_thousand = []
+
+while len(ten_thousand) < 10000:
+	t_uniq = oSUM()
+	if t_uniq not in ten_thousand and t_uniq[0] > 0:
+		ten_thousand.insert(0, t_uniq)
+
+ten_thousand.sort()
+
+ten_thousand = tuple(ten_thousand)
+
+for problem in ten_thousand:
+	print(problem[0], "   ", problem[1])
+
+print("there are", len(ten_thousand), "many unique problem in this exercise")
+
+
+
+
+
+
+
