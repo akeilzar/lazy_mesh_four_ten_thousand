@@ -1,6 +1,7 @@
 python3 lazy_mesh_four_ten_thousand 
 
 1     (-9, 1, 5, 6)
+
 1     (-9, 3, -2, -3)
 1     (-9, 4, 4, -8)
 1     (-9, 4, 8, 2)
