@@ -1,6 +1,6 @@
 python3 lazy_mesh_four_ten_thousand 
 
-
+<img width="530" height="337" alt="Screenshot 2026-11-02 alle 3 34 38 PM" src="https://github.com/user-attachments/assets/6eb0c129-3348-4bb1-98af-ede11c321ec8" />
 
 1     (-9, 1, 5, 6)
 
